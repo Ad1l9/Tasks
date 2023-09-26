@@ -46,11 +46,35 @@
 
 //Task3
 
-int a = 5;
-int b = 6;
 
-a = a + b;
-b = a - b;
-a = a - b;
-Console.WriteLine($"a:{a}");
-Console.WriteLine($"b:{b}");
+//int a = 5;
+//int b = 6;
+////Elave deyisen yaradib onunla da ede bilerdik
+//a = a + b;
+//b = a - b;
+//a = a - b;
+//Console.WriteLine($"a:{a}");
+//Console.WriteLine($"b:{b}");
+
+
+
+
+
+
+
+//Task4
+
+Console.WriteLine("Yashinizi daxil edin:");
+
+int age=int.Parse(Console.ReadLine());
+
+if(age>60 || age<12) Console.WriteLine("Biletiniz 5 manatdir");
+
+else
+{
+    Console.WriteLine("Telebe biletiniz varmi:(true/false)");
+    bool tBilet=bool.Parse(Console.ReadLine());
+
+    if(tBilet) Console.WriteLine("Biletiniz 7.5 manatdir");
+    else Console.WriteLine("Biletiniz 10 manatdir");
+}
