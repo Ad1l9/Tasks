@@ -23,15 +23,34 @@
 //(Məsələn: input 223, output "ferqli olmayan rəqəmlər var " (false) ).
 
 
-Console.WriteLine("Ededi daxil edin:");
+//Console.WriteLine("Ededi daxil edin:");
 
-int num = int.Parse(Console.ReadLine());
+//int num = int.Parse(Console.ReadLine());
 
-if (num / 100 < 10)
-{
-    if (num % 10 == (num / 10) % 10 || num % 10 == num / 100 || (num / 10) % 10 == num / 100)
-    {
-        Console.WriteLine("ferqli olmayan reqemler var");
-    }
-    else Console.WriteLine("ferqlidir");
-}
+//if (num / 100 < 10)
+//{
+//    if (num % 10 == (num / 10) % 10 || num % 10 == num / 100 || (num / 10) % 10 == num / 100)
+//    {
+//        Console.WriteLine("ferqli olmayan reqemler var");
+//    }
+//    else Console.WriteLine("ferqlidir");
+//}
+//else Console.WriteLine("3reqemli eded daxil edin");
+
+
+
+
+
+
+
+
+//Task3
+
+int a = 5;
+int b = 6;
+
+a = a + b;
+b = a - b;
+a = a - b;
+Console.WriteLine($"a:{a}");
+Console.WriteLine($"b:{b}");
